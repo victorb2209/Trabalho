@@ -1,0 +1,32 @@
+:root{
+    --cor1: #CAD2C5;
+    --cor2: #84A98C;
+    --cor3: #52796F;
+    --cor4: #354F52;
+    --cor5: #2F3E46;
+}
+html::-webkit-scrollbar{ /* largura*/
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{ /*barra*/
+    border-radius: 10px;
+    background: black; 
+}
+html::-webkit-scrollbar-track{ /*fundo*/
+    background: var(--cor4);
+}
+nav{
+    background-color: #354F52;
+}
+.color-text{
+    color: var(--black);
+}
+.tm-img{
+    width: 100%;
+}
+.p-2{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
