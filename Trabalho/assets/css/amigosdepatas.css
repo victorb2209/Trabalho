@@ -5,18 +5,18 @@
     --cor4: #354F52;
     --cor5: #2F3E46;
 }
-html::-webkit-scrollbar{ /* largura*/
+html::-webkit-scrollbar{
     width: 15px;
 }
-html::-webkit-scrollbar-thumb{ /*barra*/
+html::-webkit-scrollbar-thumb{
     border-radius: 10px;
     background: black; 
 }
-html::-webkit-scrollbar-track{ /*fundo*/
+html::-webkit-scrollbar-track{
     background: var(--cor4);
 }
 nav{
-    background-color: #354F52;
+    background-color:var(--cor2);
 }
 .color-text{
     color: var(--black);
@@ -27,6 +27,28 @@ nav{
 .p-2{
     font-size: 1rem;
     text-align: justify;
+}
+.tituloCarrossel{
+    font-size: 50px;
+    color:#2F3E46;
+    text-shadow:antiquewhite 0.1em 0.1em 0.1em;
+}
+.subCarrossel{
+    font-size: 40px;
+    color:rgb(54, 54, 54);
+    text-shadow:#CAD2C5 0.1em 0.1em 0.1em;
+}
+.cachorro{
+    width: 650px;
+    height: 450px;
+}
+
+.card-cachorro{
+    width: 100%;
+    height: 200px;
+}
+.card-cor{
+    background-color: var(--cor2);
 }
 
 

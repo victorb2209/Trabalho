@@ -1,0 +1,28 @@
+:root{
+    --cor1: #CAD2C5;
+    --cor2: #84A98C;
+    --cor3: #52796F;
+    --cor4: #354F52;
+    --cor5: #2F3E46;
+}
+nav{
+    background-color: #354F52;
+}
+.tm-img{
+    width: 111%;
+}
+.p-2{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.sd-img{
+    width: 100%;
+    height: 90%;
+}
+.sd{
+    background-color: #354F52;
+}
+.tm-img2{
+    width: 100%;
+    height: 90%;
+}
