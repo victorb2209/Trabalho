@@ -10,10 +10,10 @@ html::-webkit-scrollbar{
 }
 html::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background: black; 
+    background: var(--cor3); 
 }
 html::-webkit-scrollbar-track{
-    background: var(--cor4);
+    background: var(--cor2);
 }
 nav{
     background-color:var(--cor2);
@@ -51,4 +51,9 @@ nav{
     background-color: var(--cor2);
 }
 
-
+.nav-link:hover{
+    color: antiquewhite;
+}
+.teste{
+    height: 75px;
+}

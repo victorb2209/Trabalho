@@ -1,0 +1,38 @@
+:root{
+    --cor1: #CAD2C5;
+    --cor2: #84A98C;
+    --cor3: #52796F;
+    --cor4: #354F52;
+    --cor5: #2F3E46;
+}
+html::-webkit-scrollbar{
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: black; 
+}
+html::-webkit-scrollbar-track{
+    background: var(--cor4);
+}
+nav{
+    background-color:var(--cor2);
+}
+.color-text{
+    color: var(--black);
+}
+.p-2{
+    font-size: 1rem;
+    text-align: justify;
+}
+.texto{
+    margin-left:  300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+.nav-link:hover{
+    color: antiquewhite;
+}
+.cor{
+    background-color: var(--cor2);
+}
