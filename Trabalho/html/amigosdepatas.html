@@ -9,43 +9,41 @@
     <link rel="stylesheet" href="/html/cachorros.html">
     <link rel="stylesheet" href="/html/Gatos.html">
     <link rel="stylesheet" href="/html/sobreNos.html">
+    <script src="/assets/script/searchbar.js"></script>
     <title>Amigos de Patas</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img height="30px" src="/assets/images/silhouette-3342484_1280.webp" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img height="30px" src="/assets/images/silhouette-3342484_1280.webp" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/html/amigosdepatas.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/html/Gatos.html">Gatos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/html/cachorros.html">Cachorros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/html/sobreNos.html">Um pouco Sobre Nós</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true"></a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/html/amigosdepatas.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/Gatos.html">Gatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/cachorros.html">Cachorros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/sobreNos.html">Um pouco Sobre Nós</a>
+                </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex" onsubmit="return pesquisar()">
                 <div class="input-group">
                     <span class="input-group-text bg-nav"><i class="bi bi-search"></i></span>
-                    <input type="text" class="form-control bg-nav" aria-label="Amount (to the nearest dollar)">
-                    <span class="input-group-text bg-nav"><a href="" class="btn">Buscar</a></span>
-                  </div>
+                    <input id="searchbar" type="text" class="form-control bg-nav" placeholder="Pesquisar...">
+                    <button class="btn bg-nav" type="submit">Buscar</button>
+                </div>
             </form>
-          </div>
         </div>
-      </nav>
+    </div>
+</nav>
 <body class="">
       <section class="container-fluid">
         <div id="carouselExampleCaptions" class="carousel slide">
